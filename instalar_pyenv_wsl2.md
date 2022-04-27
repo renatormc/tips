@@ -14,8 +14,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
-export PIPENV_VENV_IN_PROJECT=enabled
 ```
 
 ## A partir de então para instalar versões do python em seu wsl2 basta usar o comando
