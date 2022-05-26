@@ -8,6 +8,7 @@ Digite regedit.exe e pressione Enter;
 Vá até HKEY_LOCAL_MACHINE\SYSTEM\Setup e crie uma nova chave com o nome LabConfig.  
 Na chave LabConfig, crie duas novas entradas:
 
-BypassTPMCheck = dword: 00000001
-BypassSecureBootCheck = dword: 00000001
-salve as alterações e volte uma etapa e prossiga novamente.
+BypassTPMCheck = dword: 00000001  
+BypassSecureBootCheck = dword: 00000001  
+
+Salve as alterações e volte uma etapa e prossiga novamente.
